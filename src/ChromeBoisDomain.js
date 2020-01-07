@@ -10,6 +10,11 @@ export default class ChromeBoisDomain extends Component {
      * function that has been provided and is already imported
      * (`drawChromeBoiAtCoords` expects two arguments, an x and a y coordinate)
      */
+
+     /* 👇 how to prevent pooling, and see the event properties logged in console:
+    event.persist();
+    console.log(event)
+    */
     drawChromeBoiAtCoords(event.clientX, event.clientY)
   }
   
